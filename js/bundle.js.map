@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAAA;AACA;AACA,CAAC,E","sources":["webpack://markup-hotel/./src/js/script.js"],"sourcesContent":["window.addEventListener('DOMContentLoaded', () => {\n    \n});"],"names":[],"sourceRoot":""}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n    font-family: 'Open Sans';\n    color: #333333;\n}\n\nbody {\n    max-width: 100%;\n}\n\nul {\n    list-style: none;\n}\n\na {\n    font-weight: 400;\n    font-size: 14px;\n    text-decoration: underline;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,WAAW;EACxB,KAAK,EAAE,OAAO;CACjB;;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,SAAS;CAC7B"
+}
