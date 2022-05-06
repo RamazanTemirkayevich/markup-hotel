@@ -1,7 +1,16 @@
+@import 'functions/variables';
+
+@import 'blocks/header';
+@import 'blocks/first';
+@import 'blocks/second';
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
+    font-family: 'M PLUS 1p', sans-serif;
     color: #333333;
 }
 
@@ -11,10 +20,18 @@ body {
 
 ul {
     list-style: none;
+    text-decoration: none;
 }
 
 a {
     font-weight: 400;
     font-size: 14px;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 166px;
+    padding-right: 166px;
 }
