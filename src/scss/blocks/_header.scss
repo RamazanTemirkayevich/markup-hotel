@@ -29,23 +29,32 @@
     }
     &-container {
         position: absolute;
-        margin-left: 29px;
-        top: 43px;
+        display: flex;
+        align-items: center;
+        height: 136px;
+        top: 62px;
+        border-left: 2px solid #FFFFFF;
 
-        &__title {
-            font-family: $ff;
-            font-weight: 400;
-            font-size: 64px;
-            color: #FFFFFF;
-            letter-spacing: $lc;
-        }
+        &__name {
+            display: flex;
+            flex-direction: column;
+            margin-left: 29px;
 
-        &__subtitle {
-            margin-top: 10px;
-            font-family: $ff;
-            color: #FFFFFF;
-            font-size: 28px;
-            letter-spacing: $lc;
+            &-title {
+                font-family: $ff;
+                font-weight: 400;
+                font-size: 64px;
+                color: #FFFFFF;
+                letter-spacing: $lc;
+            }
+    
+            &-subtitle {
+                margin-top: 10px;
+                font-family: $ff;
+                color: #FFFFFF;
+                font-size: 28px;
+                letter-spacing: $lc;
+            }
         }
     }
 }

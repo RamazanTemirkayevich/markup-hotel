@@ -1,14 +1,25 @@
-.second-block {
+.third-block {
+    margin-top: 140px;
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
     width: 100%;
 
-    &__content {
+    &__img {
         width: 540px;
-        height: 544px;
+        height: 540px;
+
+        &-item {
+            width: 100%;
+            height: 100%;
+            background: url('../../../img/second2.png') center no-repeat ;
+        }
+    }
+
+    &__content {
+        position: relative;
         display: flex;
         flex-direction: column;
+        width: 540px;
 
         &-title {
             font-family: $ff;
@@ -28,16 +39,11 @@
             text-indent: 20px;
             color: $rgba-c;
         }
-    }
 
-    &__img {
-        width: 540px;
-        height: 540px;
-
-        &-item {
-            width: 100%;
-            height: 100%;
-            background: url('../../../img/second1.png') center no-repeat ;
+        &>svg {
+            position: absolute;
+            bottom: 0;
+            right: 0;
         }
     }
 }

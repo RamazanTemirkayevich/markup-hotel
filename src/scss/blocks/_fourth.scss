@@ -1,0 +1,104 @@
+.fourth-block {
+    margin: 140px auto auto;
+
+    &__title {
+        font-family: $ff;
+        font-size: 48px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: $lc;
+        color: $rgba-c;
+    }
+
+    &__lines {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px auto;
+        width: 412px;
+
+        &>hr:first-child {
+            width: 100%;
+            height: 0;
+            border: 1px solid $main-color;
+        }
+
+        &>hr {
+            margin-top: 10px;
+            width: 220px;
+            border: 1px solid $main-color;
+        }
+    }
+
+    &__tabs {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1110px;
+
+        &-items {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            &__item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $ff;
+                text-align: center;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: $lc;
+                color: rgba(0, 0, 0, 0.5);
+                border-bottom: 1px solid $main-color;
+                width: 100%;
+                height: 52px;
+                transition: 0.7s;
+
+                &.active {
+                    border: 1px solid $main-color;
+                    border-bottom: none;
+                    color: #000000;
+                }
+            }
+        }
+
+        &-body {
+            &__block {
+                display: none;
+                margin-top: 80px;
+                right: 0;
+                width: 1260px;
+                height: 690px;
+                background: rgba(191, 219, 247, 0.2);
+            }
+
+            &__block:target {
+                display: flex;
+
+                &>p {
+                    margin-top: 135px;
+                    margin-left: 30px;
+                    text-align: center;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: center;
+                    letter-spacing: $lc;
+                    text-indent: 20px;
+                    color: $rgba-c;
+                    width: 539px;
+                }
+            }
+
+            &__img {
+                width: 540px;
+                height: 690px;
+                background: url(/img/slides/slideFirst.jpg) center no-repeat;
+            }
+        }
+
+    }
+}
