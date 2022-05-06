@@ -58,5 +58,35 @@
             letter-spacing: $lc;
             color: #000000;
         }
+    }
+    
+    &__second {
+        margin-top: 140px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 54px;
+            margin-right: 65px;
+            height: 485px;          
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: $lc;
+            color: #000000;
+        }
+
+        &-img {
+            width: 540px;
+            height: 540px;
+            background: url(/img/third2.jpg) center no-repeat;
+        }
     } 
 }
