@@ -93,10 +93,28 @@
                 }
             }
 
-            &__img {
+            &__img-one {
                 width: 540px;
                 height: 690px;
-                background: url(/img/slides/slideFirst.jpg) center no-repeat;
+                background: url(/img/slides/slideFirst/dinner/slideFirst.jpg) center no-repeat;
+            }
+
+            &__img-two {
+                width: 540px;
+                height: 690px;
+                background: url(/img/slides/slideFirst/dinner/slideSecond.jpg) center no-repeat;
+            }
+
+            &__img-three {
+                width: 540px;
+                height: 690px;
+                background: url(/img/slides/slideFirst/dinner/slideThird.jpg) center no-repeat;
+            }
+
+            &__img-four {
+                width: 540px;
+                height: 690px;
+                background: url(/img/slides/slideFirst/dinner/slideFourth.jpg) center no-repeat;
             }
         }
 

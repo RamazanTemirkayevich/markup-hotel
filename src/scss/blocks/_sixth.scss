@@ -59,7 +59,11 @@
                 line-height: 150%;
                 text-align: center;
                 letter-spacing: $lc;
-                color: #000000;
+                color: $rgba-c;
+
+                &>span {
+                    color: #000000;
+                }
             }
         }
 
