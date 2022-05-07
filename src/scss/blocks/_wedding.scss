@@ -1,0 +1,35 @@
+.wedding {
+    margin: 140px auto auto;
+
+    &-title {
+        font-family: $ff;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: $lc;
+        color: $rgba-c;
+    }
+
+    &-img {
+        margin: 40px auto auto;
+        width: 730px;
+    }
+
+    &-line {
+        width: 658px;
+        margin: 20px auto auto;
+        color: $main-color;
+    }
+
+    &-text {
+        display: block;
+        font-family: $ff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: $lc;
+        color: rgba(0, 0, 0, 0.7);
+    }
+}

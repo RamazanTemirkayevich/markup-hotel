@@ -50,4 +50,58 @@
         letter-spacing: $lc;
         color: #FFFFFF;
     }
+
+    &-block {
+        margin-top: 44px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        &__text {
+            text-align: center;
+            margin-top: 100px;
+            width: 530px;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: $lc;
+            text-indent: 20px;
+            color: $rgba-c;
+        }
+    }
+
+    &-gift {
+        margin: 140px auto auto;
+        width: 100%;
+        border-top: 2px solid $main-color;
+
+        &__text {
+            font-family: $ff;
+            font-weight: 200;
+            font-size: 24px;
+            line-height: 150%;
+            text-align: justify;
+            letter-spacing: $lc;
+            color: rgba(0, 0, 0, 0.7);
+
+            &>b {
+                font-family: $ff;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 150%;
+                text-align: justify;
+                letter-spacing: $lc;
+                color: #000000;
+            }
+        }
+
+        &__vectors {
+            margin: 20.43px auto auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 467.73px;
+        }
+    }
 }

@@ -1094,7 +1094,184 @@
   color: #FFFFFF;
 }
 
-/* line 18, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
+/* line 54, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-block {
+  margin-top: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 60, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-block__text {
+  text-align: center;
+  margin-top: 100px;
+  width: 530px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-indent: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 74, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-gift {
+  margin: 140px auto auto;
+  width: 100%;
+  border-top: 2px solid #5A8CC1;
+}
+
+/* line 79, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-gift__text {
+  font-family: "Alice";
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 88, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-gift__text > b {
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+
+/* line 99, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_hotel.scss */
+.hotel-gift__vectors {
+  margin: 20.43px auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 467.73px;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_wedding.scss */
+.wedding {
+  margin: 140px auto auto;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_wedding.scss */
+.wedding-title {
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_wedding.scss */
+.wedding-img {
+  margin: 40px auto auto;
+  width: 730px;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_wedding.scss */
+.wedding-line {
+  width: 658px;
+  margin: 20px auto auto;
+  color: #5A8CC1;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_wedding.scss */
+.wedding-text {
+  display: block;
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team {
+  margin: 140px auto auto auto;
+  width: 1276px;
+}
+
+/* line 5, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team-title {
+  width: 1110px;
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team-block {
+  display: flex;
+  width: 1260px;
+  margin-top: 40px;
+  margin-right: 0;
+  background: rgba(191, 219, 247, 0.2);
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team-block__items {
+  margin: 191px 238px auto auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team-block__items-name {
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_team.scss */
+.team-block__items-speciality {
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_footer.scss */
+.footer {
+  width: 100%;
+  margin: 140px auto auto auto;
+  background: rgba(191, 219, 247, 0.2);
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_footer.scss */
+.footer-block {
+  display: flex;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_footer.scss */
+.footer-block__map {
+  margin: 25.52px auto auto 166px;
+  width: 718px;
+  height: 427px;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -1103,25 +1280,25 @@
   color: #333333;
 }
 
-/* line 26, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
+/* line 29, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
 body {
   max-width: 100%;
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
+/* line 33, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
 ul {
   list-style: none;
   text-decoration: none;
 }
 
-/* line 35, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
+/* line 38, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
 a {
   font-weight: 400;
   font-size: 14px;
   text-decoration: none;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
+/* line 44, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/style.scss */
 .container {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    margin: 140px auto auto auto;
+    background: rgba(191, 219, 247, 0.2);
+
+    &-block {
+        display: flex;
+
+        &__map {
+            margin: 25.52px auto auto 166px;
+            width: 718px;
+            height: 427px;
+        }
+    }
+}

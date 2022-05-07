@@ -1,0 +1,50 @@
+.team {
+    margin: 140px auto auto auto;
+    width: 1276px;
+
+    &-title {
+        width: 1110px;
+        font-family: $ff;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: $lc;
+        color: $rgba-c;
+    }
+
+    &-block {
+        display: flex;
+        width: 1260px;
+        margin-top: 40px;
+        margin-right: 0;
+        background: rgba(191, 219, 247, 0.2);
+
+        &__items {
+            margin: 191px 238px auto auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            &-name {
+                font-family: $ff;
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 150%;
+                text-align: center;
+                letter-spacing: $lc;
+                color: $rgba-c;
+            }
+
+            &-speciality {
+                font-family: $ff;
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 150%;
+                text-align: center;
+                letter-spacing: $lc;
+                color: $rgba-c;
+            }
+        }
+    }
+}
