@@ -1,5 +1,5 @@
 .fifth-block {
-    margin: 140px auto;
+    margin: 140px auto auto;
 
     &__title {
         font-family: $ff;
@@ -58,6 +58,13 @@
             letter-spacing: $lc;
             color: #000000;
         }
+
+        &-vectors {
+            display: flex;
+            width: 467px;
+            align-items: center;
+            justify-content: space-between;        
+        }
     }
     
     &__second {
@@ -81,6 +88,13 @@
             text-align: center;
             letter-spacing: $lc;
             color: #000000;
+        }
+
+        &-vectors {
+            display: flex;
+            width: 467px;
+            align-items: center;
+            justify-content: space-between;        
         }
 
         &-img {

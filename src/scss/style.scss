@@ -7,6 +7,10 @@
 @import 'blocks/fourth';
 @import 'blocks/fifth';
 @import 'blocks/sixth';
+@import 'blocks/seventh';
+@import 'blocks/song';
+@import 'blocks/tab';
+@import 'blocks/hotel';
 
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap');
@@ -14,7 +18,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: sans-serif;
+    font-weight: 400;
     color: #333333;
 }
 
