@@ -47,7 +47,7 @@
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                font-weight: 400;
+                font-weight: 200;
                 font-size: 20px;
                 line-height: 36px;
                 letter-spacing: $lc;
@@ -60,7 +60,7 @@
                 &.active {
                     border: 1px solid $main-color;
                     border-bottom: none;
-                    font-weight: 400;
+                    font-weight: 200;
                     font-size: 20px;
                     line-height: 36px;
                     letter-spacing: $lc;
