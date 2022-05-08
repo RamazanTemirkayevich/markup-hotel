@@ -14,36 +14,73 @@
     }
 
     &-block {
+        position: relative;
         display: flex;
         width: 1260px;
         margin-top: 40px;
         margin-right: 0;
         background: rgba(191, 219, 247, 0.2);
 
-        &__items {
-            margin: 191px 238px auto auto;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
+        &__img {
+            width: 100%;
+            height: 538px;
+        }
 
-            &-name {
-                font-family: $ff;
-                font-weight: 400;
-                font-size: 38px;
-                line-height: 150%;
-                text-align: center;
-                letter-spacing: $lc;
-                color: $rgba-c;
+        &__items {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            inset: 0;
+            opacity: 0;
+            transition: 0.7s;
+
+            &>img {
+                display: block;
+                width: 538px;
+                object-fit: cover;
+                object-position: center;
             }
 
-            &-speciality {
-                font-family: $ff;
-                font-weight: 400;
-                font-size: 38px;
-                line-height: 150%;
-                text-align: center;
-                letter-spacing: $lc;
-                color: $rgba-c;
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 157px;
+                justify-content: space-between;
+                margin: auto;
+
+                &>p {
+                    font-family: $ff;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 150%;
+                    text-align: center;
+                    letter-spacing: $lc;
+                    color: $rgba-c;
+                }
+            }
+        }
+
+        &__items[data-active] {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        &__btn {
+            position: absolute;
+            z-index: 2;
+            background: none;
+            border: none;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+
+            &.prev {
+                left: 0;
+            }
+            &.next {
+                right: 6em;
             }
         }
     }

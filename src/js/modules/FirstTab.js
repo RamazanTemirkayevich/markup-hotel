@@ -1,7 +1,7 @@
 function FirstTab() {
     let tab = function (e) {
         let tabNav = document.querySelectorAll('.tab-block__tabs-items__item'),
-            tabContent = document.querySelectorAll('.tab-block__tabs-body__block'),
+            tabContent = document.querySelectorAll('.tab-block-slide'),
             tabName;
     
         tabNav.forEach(item => {
@@ -19,7 +19,7 @@ function FirstTab() {
     
         function selectTabContent(tabName) {
             tabContent.forEach(item => {
-                item.classList.contains(tabName) ? item.classList.add('tab-block__tabs-body__block--active') : item.classList.remove('tab-block__tabs-body__block--active');
+                item.classList.contains(tabName) ? item.classList.add('tab-block-slide--active') : item.classList.remove('tab-block-slide--active');
             })
         }
     
