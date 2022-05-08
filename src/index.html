@@ -155,23 +155,97 @@
                 </nav>
                 <div class="fourth-block__tabs-body">
                     <div id="tab-01" class="fourth-block__tabs-body__block">
-                        <div class="fourth-block__tabs-body__img-one"></div>
+
+                        <div class="fourth-block__tabs-body__img-one" data-carousel>
+                            <button class="fourth-block__tabs-body__img-one-btn prev" data-carousel-button="prev">
+                                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.500006 23.4547C0.500007 10.7781 10.7966 0.499985 23.5 0.499987C36.2035 0.499988 46.5 10.7781 46.5 23.4547C46.5 36.1313 36.2035 46.4094 23.5 46.4094C10.7965 46.4094 0.500005 36.1313 0.500006 23.4547Z" fill="#EBF1FD" fill-opacity="0.87" stroke="#5A8CC1"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6689 18.2776C33.631 18.8296 32.8091 19.9696 31.8412 20.8116C30.4171 22.0503 30.4326 22.7425 31.9221 24.4482C37.8979 31.2913 27.5646 36.467 18.5639 30.4473C16.3258 28.9503 7.7169 24.0174 7.56369 22.741C7.41048 21.4647 8.73459 20.7909 13.5637 18.2497C16.7092 15.8895 24.4615 14.4297 26.6882 14.2575C29.9711 14.002 33.8115 16.214 33.6689 18.2776ZM24.5637 16.4742C22.3591 16.9215 18.9073 18.0782 15.5637 19.7468C12.5637 21.2439 9.06369 22.741 12.0637 24.2381C18.0637 28.7295 31.5637 35.4376 31.2415 27.2142C31.0791 25.3285 30.4781 24.8028 27.2592 23.7355C23.8055 22.5893 23.6319 22.4239 25.3087 21.8695C29.9887 20.3232 31.2218 19.0891 29.7592 17.4142C28.7546 16.2638 28.0637 15.4761 24.5637 16.4742Z" fill="#5A8CC1"/>
+                                </svg>
+                            </button>
+                            <button class="fourth-block__tabs-body__img-one-btn next" data-carousel-button="next">
+                                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M46.5 23.4547C46.5 36.1314 36.2035 46.4094 23.5 46.4094C10.7965 46.4094 0.5 36.1314 0.5 23.4547C0.5 10.7781 10.7965 0.5 23.5 0.5C36.2035 0.5 46.5 10.7781 46.5 23.4547Z" fill="#EBF1FD" fill-opacity="0.87" stroke="#5A8CC1"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3311 18.2115C13.369 18.7635 14.1909 19.9034 15.1588 20.7454C16.5829 21.9842 16.5674 22.6764 15.0779 24.3821C9.10214 31.2252 19.4354 36.4008 28.436 30.3812C30.6742 28.8842 39.2831 23.9513 39.4363 22.6749C39.5895 21.3986 38.2654 20.7248 33.4363 18.1836C30.2908 15.8234 22.5385 14.3636 20.3117 14.1914C17.0289 13.9359 13.1885 16.1479 13.3311 18.2115ZM22.4363 16.4081C24.6409 16.8553 28.0927 18.0121 31.4363 19.6807C34.4363 21.1778 37.9363 22.6749 34.9363 24.172C28.9363 28.6634 15.4363 35.3715 15.7585 27.1481C15.9209 25.2624 16.5219 24.7366 19.7408 23.6694C23.1945 22.5231 23.3681 22.3577 21.6913 21.8034C17.0113 20.2571 15.7782 19.0229 17.2408 17.3481C18.2454 16.1977 18.9363 15.41 22.4363 16.4081Z" fill="#5A8CC1"/>
+                                </svg>  
+                            </button>
+                            <ul data-slides>
+                              <li class="fourth-block__tabs-body__img-one-item" data-active>
+                                <img src="/img/slides/slideFirst/dinner/slideFirst.jpg" alt="">
+                              </li>
+                              <li class="fourth-block__tabs-body__img-one-item">
+                                <img src="/img/slides/slideFirst/dinner/slideSecond.jpg" alt="">
+                              </li>
+                              <li class="fourth-block__tabs-body__img-one-item">
+                                <img src="/img/slides/slideFirst/dinner/slideThird.jpg" alt="">
+                              </li>
+                              <li class="fourth-block__tabs-body__img-one-item">
+                                <img src="/img/slides/slideFirst/dinner/slideFourth.jpg" alt="">
+                              </li>
+                            </ul>
+                        </div>
+
+                        <!-- <div class="fourth-block__tabs-body__img-one">
+                            <button class="fourth-block__tabs-body__img-one__prev">
+                                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.500006 23.4547C0.500007 10.7781 10.7966 0.499985 23.5 0.499987C36.2035 0.499988 46.5 10.7781 46.5 23.4547C46.5 36.1313 36.2035 46.4094 23.5 46.4094C10.7965 46.4094 0.500005 36.1313 0.500006 23.4547Z" fill="#EBF1FD" fill-opacity="0.87" stroke="#5A8CC1"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6689 18.2776C33.631 18.8296 32.8091 19.9696 31.8412 20.8116C30.4171 22.0503 30.4326 22.7425 31.9221 24.4482C37.8979 31.2913 27.5646 36.467 18.5639 30.4473C16.3258 28.9503 7.7169 24.0174 7.56369 22.741C7.41048 21.4647 8.73459 20.7909 13.5637 18.2497C16.7092 15.8895 24.4615 14.4297 26.6882 14.2575C29.9711 14.002 33.8115 16.214 33.6689 18.2776ZM24.5637 16.4742C22.3591 16.9215 18.9073 18.0782 15.5637 19.7468C12.5637 21.2439 9.06369 22.741 12.0637 24.2381C18.0637 28.7295 31.5637 35.4376 31.2415 27.2142C31.0791 25.3285 30.4781 24.8028 27.2592 23.7355C23.8055 22.5893 23.6319 22.4239 25.3087 21.8695C29.9887 20.3232 31.2218 19.0891 29.7592 17.4142C28.7546 16.2638 28.0637 15.4761 24.5637 16.4742Z" fill="#5A8CC1"/>
+                                </svg>
+                            </button>
+                            <button class="fourth-block__tabs-body__img-one__next">
+                                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M46.5 23.4547C46.5 36.1314 36.2035 46.4094 23.5 46.4094C10.7965 46.4094 0.5 36.1314 0.5 23.4547C0.5 10.7781 10.7965 0.5 23.5 0.5C36.2035 0.5 46.5 10.7781 46.5 23.4547Z" fill="#EBF1FD" fill-opacity="0.87" stroke="#5A8CC1"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3311 18.2115C13.369 18.7635 14.1909 19.9034 15.1588 20.7454C16.5829 21.9842 16.5674 22.6764 15.0779 24.3821C9.10214 31.2252 19.4354 36.4008 28.436 30.3812C30.6742 28.8842 39.2831 23.9513 39.4363 22.6749C39.5895 21.3986 38.2654 20.7248 33.4363 18.1836C30.2908 15.8234 22.5385 14.3636 20.3117 14.1914C17.0289 13.9359 13.1885 16.1479 13.3311 18.2115ZM22.4363 16.4081C24.6409 16.8553 28.0927 18.0121 31.4363 19.6807C34.4363 21.1778 37.9363 22.6749 34.9363 24.172C28.9363 28.6634 15.4363 35.3715 15.7585 27.1481C15.9209 25.2624 16.5219 24.7366 19.7408 23.6694C23.1945 22.5231 23.3681 22.3577 21.6913 21.8034C17.0113 20.2571 15.7782 19.0229 17.2408 17.3481C18.2454 16.1977 18.9363 15.41 22.4363 16.4081Z" fill="#5A8CC1"/>
+                                </svg>                                    
+                            </button>
+                            <div class="fourth-block__tabs-body__img-one__track">
+                                <div class="fourth-block__tabs-body__img-one-item">
+                                    <img  src="/img/slides/slideFirst/dinner/slideFirst.jpg" alt="">
+                                </div>
+                                <div class="fourth-block__tabs-body__img-one-item">
+                                    <img  src="/img/slides/slideFirst/dinner/slideSecond.jpg" alt="">
+                                </div>
+                                <div class="fourth-block__tabs-body__img-one-item">
+                                    <img  src="/img/slides/slideFirst/dinner/slideThird.jpg" alt="">
+                                </div>
+                                <div class="fourth-block__tabs-body__img-one-item">
+                                    <img  src="/img/slides/slideFirst/dinner/slideFourth.jpg" alt="">
+                                </div>
+                            </div>
+                        </div> -->
                         <p>Формат уютного семейного праздника  на 10 - 15 гостей, <br> отличный вариант для  небольшой свадьбы. Если Вы не <br> любите шумные вечеринки, а большие компании для Вас <br> утомительны - проведите самый главный день в кругу <br> самых близких и родных за одним столом в тёплой и <br> душевной атмосфере, где вы сможете расслабиться и быть <br> собой. Ваш знаменательный день пройдёт в атмосфере <br> уюта и близости, а рядом будут самые родные и любимые <br> люди, которых вы сможете особенно окружить заботой. На <br> небольшом семейном ужине лучше подготовить длинный <br> стол для всех гостей и уделить внимание стильной <br> сервировке, а также элементам праздничного оформления. <br> Декор камерной свадьбы призван создать теплую и <br> душевную атмосферу, поэтому используйте в оформлении <br> большое количество свечей, тактильно приятные ткани и <br> натуральные материалы. Основным преимуществом <br> небольшой семейной свадьбы, это абсолютная свобода <br> действий, которая предоставляет паре возможность <br> реализовать свои идеи в жизнь и при этом сохранить <br> таинство своего узкого семейного круга.
                         </p>
                     </div>
                     <div id="tab-02" class="fourth-block__tabs-body__block">
-                        <div class="fourth-block__tabs-body__img-two"></div>
-                        <p>Формат уютного семейного праздника  на 10 - 15 гостей, <br> отличный вариант для  небольшой свадьбы. Если Вы не <br> любите шумные вечеринки, а большие компании для Вас <br> утомительны - проведите самый главный день в кругу <br> самых близких и родных за одним столом в тёплой и <br> душевной атмосфере, где вы сможете расслабиться и быть <br> собой. Ваш знаменательный день пройдёт в атмосфере <br> уюта и близости, а рядом будут самые родные и любимые <br> люди, которых вы сможете особенно окружить заботой. На <br> небольшом семейном ужине лучше подготовить длинный <br> стол для всех гостей и уделить внимание стильной <br> сервировке, а также элементам праздничного оформления. <br> Декор камерной свадьбы призван создать теплую и <br> душевную атмосферу, поэтому используйте в оформлении <br> большое количество свечей, тактильно приятные ткани и <br> натуральные материалы. Основным преимуществом <br> небольшой семейной свадьбы, это абсолютная свобода <br> действий, которая предоставляет паре возможность <br> реализовать свои идеи в жизнь и при этом сохранить <br> таинство своего узкого семейного круга.
+                        <div class="fourth-block__tabs-body__img-two">
+                            <img src="/img/slides/slideFirst/wedding/slideFirst.jpg" alt="">
+                            <img src="/img/slides/slideFirst/wedding/slideSecond.jpg" alt="">
+                            <img src="/img/slides/slideFirst/wedding/slideThird.jpg" alt="">
+                            <img src="/img/slides/slideFirst/wedding/slideFourth.jpg" alt="">
+                        </div>
+                        <p>Это праздник, который запомнится на всю жизнь не только вам, но и вашим гостям. В разы больше эмоций и поздравлений, гораздо больше улыбок и веселья, танцы до упада — все эти впечатления являются безоговорочными преимуществами масштабного торжества. Из большой свадьбы можно сделать настоящий праздник мечты: и церемония со всеми традициями, и банкет на умопомрачительной площадке, свадебное утро в волшебном месте, и первое совместное ДА на берегу Казантипского залива. 
                         </p>
                     </div>
                     <div id="tab-03" class="fourth-block__tabs-body__block">
-                        <div class="fourth-block__tabs-body__img-three"></div>
-                        <p>Формат уютного семейного праздника  на 10 - 15 гостей, <br> отличный вариант для  небольшой свадьбы. Если Вы не <br> любите шумные вечеринки, а большие компании для Вас <br> утомительны - проведите самый главный день в кругу <br> самых близких и родных за одним столом в тёплой и <br> душевной атмосфере, где вы сможете расслабиться и быть <br> собой. Ваш знаменательный день пройдёт в атмосфере <br> уюта и близости, а рядом будут самые родные и любимые <br> люди, которых вы сможете особенно окружить заботой. На <br> небольшом семейном ужине лучше подготовить длинный <br> стол для всех гостей и уделить внимание стильной <br> сервировке, а также элементам праздничного оформления. <br> Декор камерной свадьбы призван создать теплую и <br> душевную атмосферу, поэтому используйте в оформлении <br> большое количество свечей, тактильно приятные ткани и <br> натуральные материалы. Основным преимуществом <br> небольшой семейной свадьбы, это абсолютная свобода <br> действий, которая предоставляет паре возможность <br> реализовать свои идеи в жизнь и при этом сохранить <br> таинство своего узкого семейного круга.
+                        <div class="fourth-block__tabs-body__img-three">
+                            <img src="/img/slides/slideFirst/pair/slideFirst.jpg" alt="">
+                            <img src="/img/slides/slideFirst/pair/slideSecond.jpg" alt="">
+                            <img src="/img/slides/slideFirst/pair/slideThird.jpg" alt="">
+                            <img src="/img/slides/slideFirst/pair/slideFourth.jpg" alt="">
+                        </div>
+                        <p>Отличная возможность насладиться обществом друг друга, а также избавиться от неизбежных переживаний при многолюдных торжествах. Насладиться уютным ужином при свечах с невероятным видом на алый закат, произнести друг другу самые трогательные, искренние слова и загадать самое сокровенное желание. В La Grace  даже самый маленький праздник, будет романтичным и незабываемым.
                         </p>
                     </div>
                     <div id="tab-04" class="fourth-block__tabs-body__block">
-                        <div class="fourth-block__tabs-body__img-four"></div>
-                        <p>Формат уютного семейного праздника  на 10 - 15 гостей, <br> отличный вариант для  небольшой свадьбы. Если Вы не <br> любите шумные вечеринки, а большие компании для Вас <br> утомительны - проведите самый главный день в кругу <br> самых близких и родных за одним столом в тёплой и <br> душевной атмосфере, где вы сможете расслабиться и быть <br> собой. Ваш знаменательный день пройдёт в атмосфере <br> уюта и близости, а рядом будут самые родные и любимые <br> люди, которых вы сможете особенно окружить заботой. На <br> небольшом семейном ужине лучше подготовить длинный <br> стол для всех гостей и уделить внимание стильной <br> сервировке, а также элементам праздничного оформления. <br> Декор камерной свадьбы призван создать теплую и <br> душевную атмосферу, поэтому используйте в оформлении <br> большое количество свечей, тактильно приятные ткани и <br> натуральные материалы. Основным преимуществом <br> небольшой семейной свадьбы, это абсолютная свобода <br> действий, которая предоставляет паре возможность <br> реализовать свои идеи в жизнь и при этом сохранить <br> таинство своего узкого семейного круга.
+                        <div class="fourth-block__tabs-body__img-four">
+                            <img src="/img/slides/slideFirst/ceremony/slideFirst.jpg" alt="">
+                            <img src="/img/slides/slideFirst/ceremony/slideSecond.jpg" alt="">
+                            <img src="/img/slides/slideFirst/ceremony/slideThird.jpg" alt="">
+                            <img src="/img/slides/slideFirst/ceremony/slideFourth.jpg" alt="">
+                        </div>
+                        <p>Всё больше пар отказываются от торжественной росписи в ЗАГСе, отдавая преимущество сказочной выездной церемонии, в уникальном собственном стиле,  с великолепным видом на бесконечную бирюзовую гладь Казантипского залива. 
+                            Здесь нет места спешке и конвейерному ощущению, этот день только для Вас двоих и он станет особенным, пропитанным любовью и искренними эмоциями. Нотки легкой тревоги бережно касаются ниточек Вашей души, глаза гостей сияют от восторга, а уста не перестают выражать слова поздравлений!
+                            Мы знаем, как правильно спланировать тайминг  церемонии и поможем продумать фуршет с оригинальными закусками и напитками, что  не позволит скучать Вашим гостям во время Вашей свадебной фотосьёмки.                            
                         </p>
                     </div>
                 </div>
@@ -403,19 +477,19 @@
 
             <div class="tab-block__tabs">
                 <nav class="tab-block__tabs-items">
-                    <a href="#tab-001" class="tab-block__tabs-items__item active">Оформление</a>
-                    <a href="#tab-002" class="tab-block__tabs-items__item">Ведущий</a>
-                    <a href="#tab-003" class="tab-block__tabs-items__item">Торт</a>
-                    <a href="#tab-004" class="tab-block__tabs-items__item">Трансфер</a>
-                    <a href="#tab-005" class="tab-block__tabs-items__item">Фото</a>
-                    <a href="#tab-006" class="tab-block__tabs-items__item">Видео</a>
-                    <a href="#tab-007" class="tab-block__tabs-items__item">Букет</a>
+                    <a href="#tab-001" data-tab-name="tab-001" class="tab-block__tabs-items__item">Оформление</a>
+                    <a href="#tab-002" data-tab-name="tab-002" class="tab-block__tabs-items__item">Ведущий</a>
+                    <a href="#tab-003" data-tab-name="tab-003" class="tab-block__tabs-items__item">Торт</a>
+                    <a href="#tab-004" data-tab-name="tab-004" class="tab-block__tabs-items__item">Трансфер</a>
+                    <a href="#tab-005" data-tab-name="tab-005" class="tab-block__tabs-items__item">Фото</a>
+                    <a href="#tab-006" data-tab-name="tab-006" class="tab-block__tabs-items__item">Видео</a>
+                    <a href="#tab-007" data-tab-name="tab-007" class="tab-block__tabs-items__item">Букет</a>
                 </nav>
 
                 <div class="tab-block__tabs-body">
-                    <div id="tab-001" class="tab-block__tabs-body__block">
+                    <div id="tab-001" class="tab-block__tabs-body__block tab-001">
                         <div class="tab-block__tabs-body__img">
-                            <img src="/img/slides/slideFourth.jpg" alt="">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
                         </div>
 
                         <div class="tab-block__tabs-body__text">
@@ -429,14 +503,98 @@
                         </div>
     
                     </div>
-                    <div id="tab-002" class="tab-block__tabs-body__block">
-                        Большая свадьба
+                    <div id="tab-002" class="tab-block__tabs-body__block tab-002">
+
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
+
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
                     </div>
-                    <div id="tab-003" class="tab-block__tabs-body__block">
-                        Свадьба вдвоем
+                    <div id="tab-003" class="tab-block__tabs-body__block tab-003">
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
+
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
                     </div>
-                    <div id="tab-004" class="tab-block__tabs-body__block">
-                        Выездная церемония
+                    <div id="tab-004" class="tab-block__tabs-body__block tab-004">
+
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
+
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="tab-005" class="tab-block__tabs-body__block tab-005">
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
+
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
+
+                    </div>
+                    <div id="tab-006" class="tab-block__tabs-body__block tab-006">
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
+
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="tab-007" class="tab-block__tabs-body__block tab-007">
+                        <div class="tab-block__tabs-body__img">
+                            <img src="/img/slides/teamSlide/team1.jpg" alt="">
+                        </div>
+
+                        <div class="tab-block__tabs-body__text">
+                            <p>
+                                Большой опыт  и профессионализм в комплексном оформлении Вашего праздника
+                                <br>
+                                <br>
+                                Елена
+                            </p>
+                            <a href="tel:+7978XXXXXXX">+ 7 (978) XXX-XX-XX </a>
+                        </div>
                     </div>
                 </div>
            </div>            
@@ -556,22 +714,28 @@
                 <div class="footer-block__info-social">
                     <span>Мы в соц.сетях</span>
                     <div class="footer-block__info-social__items">
-                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.3244 1.51953H10.3298C5.17708 1.51953 1 5.69661 1 10.8493V24.844C1 29.9967 5.17708 34.1737 10.3298 34.1737H24.3244C29.4771 34.1737 33.6542 29.9967 33.6542 24.844V10.8493C33.6542 5.69661 29.4771 1.51953 24.3244 1.51953Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <rect x="24.3245" y="10.8486" width="4.66488" height="4.66488" rx="1" transform="rotate(-90 24.3245 10.8486)" fill="#5A8CC1"/>
-                            <rect x="25.4907" y="9.68262" width="2.33244" height="2.33244" rx="0.5" transform="rotate(-90 25.4907 9.68262)" stroke="#5A8CC1" stroke-linecap="round"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3269 24.8433C13.4624 24.8433 10.3296 21.7105 10.3296 17.846C10.3296 13.9814 13.4624 10.8486 17.3269 10.8486C21.1914 10.8486 24.3242 13.9814 24.3242 17.846C24.3242 19.7018 23.587 21.4816 22.2748 22.7938C20.9625 24.1061 19.1827 24.8433 17.3269 24.8433Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <svg width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1263 34.9906C27.5752 34.9891 34.1265 30.0644 36.1981 22.9093C38.2697 15.7542 35.3628 8.09116 29.0668 4.11017C22.7709 0.12918 14.6016 0.78862 9.02574 5.72793C3.44987 10.6672 1.80975 18.6973 5.00217 25.4275L1 34.9906L11.5003 32.5998C14.1036 34.1689 17.0867 34.9957 20.1263 34.9906Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4428 16.0223C14.0817 16.0104 12.9868 14.8995 12.9947 13.5384C13.0026 12.1772 14.1103 11.0791 15.4714 11.083C16.8326 11.0869 17.9339 12.1914 17.934 13.5526C17.9274 14.9222 16.8124 16.0276 15.4428 16.0223V16.0223Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3184 22.8408C22.3107 23.8489 22.9119 24.7621 23.8409 25.1535C24.77 25.5449 25.8434 25.3371 26.5594 24.6274C27.2753 23.9176 27.4924 22.846 27.109 21.9136C26.7257 20.9812 25.8178 20.3721 24.8096 20.3711C23.44 20.3658 22.325 21.4712 22.3184 22.8408V22.8408Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12.954 13.5527C12.9205 21.8416 20.8435 26.2167 24.8098 25.3106" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                        <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M37.823 34.429C43.2387 34.6261 47.7926 30.4034 48.004 24.9882V10.9669C47.7926 5.55174 43.2387 1.329 37.823 1.52616H11.1811C5.76535 1.329 1.21147 5.55174 1 10.9669V24.9882C1.21147 30.4034 5.76535 34.6261 11.1811 34.429H37.823Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3456 11.3384L30.7746 16.3866C31.2559 16.6677 31.5518 17.1831 31.5518 17.7404C31.5518 18.2977 31.2559 18.8131 30.7746 19.0941L23.3456 24.617C21.9355 25.5736 19.8015 24.7581 19.8015 23.2633V12.6874C19.8015 11.1997 21.9378 10.3819 23.3456 11.3384Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <a href="https://www.instagram.com/la_grace_hotel/?hl=ru">
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.3244 1.51953H10.3298C5.17708 1.51953 1 5.69661 1 10.8493V24.844C1 29.9967 5.17708 34.1737 10.3298 34.1737H24.3244C29.4771 34.1737 33.6542 29.9967 33.6542 24.844V10.8493C33.6542 5.69661 29.4771 1.51953 24.3244 1.51953Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="24.3245" y="10.8486" width="4.66488" height="4.66488" rx="1" transform="rotate(-90 24.3245 10.8486)" fill="#5A8CC1"/>
+                                <rect x="25.4907" y="9.68262" width="2.33244" height="2.33244" rx="0.5" transform="rotate(-90 25.4907 9.68262)" stroke="#5A8CC1" stroke-linecap="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3269 24.8433C13.4624 24.8433 10.3296 21.7105 10.3296 17.846C10.3296 13.9814 13.4624 10.8486 17.3269 10.8486C21.1914 10.8486 24.3242 13.9814 24.3242 17.846C24.3242 19.7018 23.587 21.4816 22.2748 22.7938C20.9625 24.1061 19.1827 24.8433 17.3269 24.8433Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1263 34.9906C27.5752 34.9891 34.1265 30.0644 36.1981 22.9093C38.2697 15.7542 35.3628 8.09116 29.0668 4.11017C22.7709 0.12918 14.6016 0.78862 9.02574 5.72793C3.44987 10.6672 1.80975 18.6973 5.00217 25.4275L1 34.9906L11.5003 32.5998C14.1036 34.1689 17.0867 34.9957 20.1263 34.9906Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4428 16.0223C14.0817 16.0104 12.9868 14.8995 12.9947 13.5384C13.0026 12.1772 14.1103 11.0791 15.4714 11.083C16.8326 11.0869 17.9339 12.1914 17.934 13.5526C17.9274 14.9222 16.8124 16.0276 15.4428 16.0223V16.0223Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3184 22.8408C22.3107 23.8489 22.9119 24.7621 23.8409 25.1535C24.77 25.5449 25.8434 25.3371 26.5594 24.6274C27.2753 23.9176 27.4924 22.846 27.109 21.9136C26.7257 20.9812 25.8178 20.3721 24.8096 20.3711C23.44 20.3658 22.325 21.4712 22.3184 22.8408V22.8408Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.954 13.5527C12.9205 21.8416 20.8435 26.2167 24.8098 25.3106" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=DjtgQtIdpzg&t=4s">
+                            <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.823 34.429C43.2387 34.6261 47.7926 30.4034 48.004 24.9882V10.9669C47.7926 5.55174 43.2387 1.329 37.823 1.52616H11.1811C5.76535 1.329 1.21147 5.55174 1 10.9669V24.9882C1.21147 30.4034 5.76535 34.6261 11.1811 34.429H37.823Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3456 11.3384L30.7746 16.3866C31.2559 16.6677 31.5518 17.1831 31.5518 17.7404C31.5518 18.2977 31.2559 18.8131 30.7746 19.0941L23.3456 24.617C21.9355 25.5736 19.8015 24.7581 19.8015 23.2633V12.6874C19.8015 11.1997 21.9378 10.3819 23.3456 11.3384Z" stroke="#5A8CC1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>

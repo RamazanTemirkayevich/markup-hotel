@@ -67,6 +67,7 @@
         }
 
         &-body {
+            display: block;
             &__block {
                 display: none;
                 margin-top: 80px;
@@ -93,29 +94,89 @@
                 }
             }
 
+
+
             &__img-one {
+                position: relative;
                 width: 540px;
-                height: 690px;
-                background: url(/img/slides/slideFirst/dinner/slideFirst.jpg) center no-repeat;
-            }
+                height: 100%;
 
-            &__img-two {
-                width: 540px;
-                height: 690px;
-                background: url(/img/slides/slideFirst/dinner/slideSecond.jpg) center no-repeat;
-            }
+                &>ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
 
-            &__img-three {
-                width: 540px;
-                height: 690px;
-                background: url(/img/slides/slideFirst/dinner/slideThird.jpg) center no-repeat;
-            }
+                &-item {
+                    position: absolute;
+                    inset: 0;
+                    opacity: 0;
+                    transition: 200ms opacity easy-in-out;
+                    transition-delay: 200ms;
 
-            &__img-four {
-                width: 540px;
-                height: 690px;
-                background: url(/img/slides/slideFirst/dinner/slideFourth.jpg) center no-repeat;
-            }
+                    &>img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                &-item[data-active] {
+                    opacity: 1;
+                    z-index: 1;
+                    transition-delay: 0ms;
+                }
+
+                &-btn {
+                    position: absolute;
+                    z-index: 2;
+                    background: none;
+                    border: none;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+
+                    &.prev {
+                        left: 0;
+                    }
+                    &.next {
+                        right: 0;
+                    }
+                }
+            }    
+
+            //     &__prev {
+            //         position: absolute;
+            //         background: none;
+            //         border: none;
+            //         top: 24em;
+            //         left: 0;
+            //         cursor: pointer;
+            //         z-index: 1;
+            //     }
+
+            //     &__next {
+            //         position: absolute;
+            //         background: none;
+            //         border: none;
+            //         top: 24em;
+            //         right: 0;
+            //         cursor: pointer;
+            //         z-index: 1;                
+            //     }
+
+            //     &__track {
+            //         display: flex;
+            //         transition: 1.5s;
+            //     }
+
+            //     &-item {
+            //         width: 540px;
+            //         background-image: rgba(0, 0, 0, 0.34);
+            //     }
+            // 
         }
 
     }

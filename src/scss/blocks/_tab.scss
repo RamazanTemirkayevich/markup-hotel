@@ -56,16 +56,16 @@
                 width: 100%;
                 height: 52px;
                 transition: 0.7s;
+            }
 
-                &.active {
-                    border: 1px solid $main-color;
-                    border-bottom: none;
-                    font-weight: 200;
-                    font-size: 20px;
-                    line-height: 36px;
-                    letter-spacing: $lc;
-                    color: #000000;
-                }
+            &__item--active {
+                border: 1px solid $main-color;
+                border-bottom: none;
+                font-weight: 200;
+                font-size: 20px;
+                line-height: 36px;
+                letter-spacing: $lc;
+                color: #000000;
             }
         }
 
@@ -79,9 +79,14 @@
                 background: rgba(191, 219, 247, 0.2);
             }
 
-            &__block:target {
+            &__block--active {
                 display: flex;
+                transition: 0.7s;
             }
+
+            // &__block:target {
+            //     display: flex;
+            // }
 
             &__text {
                 margin: auto;
