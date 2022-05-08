@@ -102,3 +102,19 @@
         }
     }
 }
+
+@media only screen and (min-width: 375px) {
+    .header {
+        &-main {
+            &__img {
+                &-prev {
+                    margin-left: 20px;
+                }
+
+                &-next {
+                    margin-left: 23em;
+                }
+            }
+        }
+    }
+}

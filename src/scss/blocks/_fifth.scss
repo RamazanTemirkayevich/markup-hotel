@@ -104,3 +104,35 @@
         }
     } 
 }
+
+@media only screen and (min-width: 375px) {
+    .fifth-block {
+        width: 100%;
+
+        &__lines {
+            width: 100%;
+        }
+
+        &__first {
+            &-box {
+                margin-top: unset;
+                margin-left: unset;
+                width: 100%;
+            }
+
+            &-vectors {
+                width: 100%;
+            }
+        }
+
+        &__second {
+            &-box {
+                width: 100%;
+            }
+
+            &-vectors {
+                width: 100%;
+            }
+        }
+    }
+}

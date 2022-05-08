@@ -41,3 +41,21 @@
         }
     }
 }
+
+@media only screen and (min-width: 375px) {
+    .second-block {
+        flex-direction: column;
+        &__content {
+            width: 100%;
+            height: unset;
+
+            &-title {
+                font-size: 40px;
+            }
+        }
+
+        &__img {
+            width: 100%;
+        }
+    }
+}
