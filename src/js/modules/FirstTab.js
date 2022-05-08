@@ -19,7 +19,7 @@ function FirstTab() {
     
         function selectTabContent(tabName) {
             tabContent.forEach(item => {
-                item.classList.contains(tabName) ? item.classList.add('tab-block-slide--active') : item.classList.remove('tab-block-slide--active');
+                item.classList.contains(tabName) ? item.classList.add('active') : item.classList.remove('active');
             })
         }
     

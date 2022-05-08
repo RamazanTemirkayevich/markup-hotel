@@ -26,35 +26,42 @@
 .header-main__img-track {
   display: flex;
   transition: 1.5s;
-  color: rgba(0, 0, 0, 0.34);
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
-.header-main__img-track__item {
-  background-image: rgba(0, 0, 0, 0.34);
+/* line 20, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+.header-main__img-track__item::after {
+  content: '';
+  background: rgba(0, 0, 0, 0.34);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-/* line 26, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 33, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-main__img-prev {
   position: absolute;
   margin-left: 165px;
   margin-top: 235px;
-  z-index: 1;
+  z-index: 2;
   border: none;
   background: none;
 }
 
-/* line 35, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 42, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-main__img-next {
   position: absolute;
   margin-left: 92em;
   margin-top: 235px;
-  z-index: 1;
+  z-index: 2;
   border: none;
   background: none;
 }
 
-/* line 45, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 52, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-main__btn {
   position: absolute;
   bottom: 25.38px;
@@ -66,16 +73,17 @@
   font-size: 28px;
   border: 1px solid #EBF1FD;
   cursor: pointer;
+  z-index: 2;
 }
 
-/* line 57, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 65, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-main__btn > a {
   color: #FFFFFF;
   font-family: "Alice";
   font-size: 28px;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 73, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-container {
   position: absolute;
   display: flex;
@@ -83,16 +91,17 @@
   height: 136px;
   top: 62px;
   border-left: 2px solid #FFFFFF;
+  z-index: 2;
 }
 
-/* line 73, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 82, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-container__name {
   display: flex;
   flex-direction: column;
   margin-left: 29px;
 }
 
-/* line 78, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 87, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-container__name-title {
   font-family: "Alice";
   font-weight: 400;
@@ -101,7 +110,7 @@
   letter-spacing: 0.07em;
 }
 
-/* line 86, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
+/* line 95, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_header.scss */
 .header-container__name-subtitle {
   margin-top: 10px;
   font-family: "Alice";
@@ -1345,13 +1354,13 @@
   background: rgba(191, 219, 247, 0.2);
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 43, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__img {
   width: 100%;
   height: 538px;
 }
 
-/* line 46, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 48, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__items {
   position: absolute;
   display: flex;
@@ -1362,7 +1371,7 @@
   transition: 0.7s;
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 57, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__items > img {
   display: block;
   width: 538px;
@@ -1370,7 +1379,7 @@
   object-position: center;
 }
 
-/* line 62, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 64, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__items-text {
   display: flex;
   flex-direction: column;
@@ -1380,7 +1389,7 @@
   margin: auto;
 }
 
-/* line 70, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 72, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__items-text > p {
   font-family: "Alice";
   font-weight: 400;
@@ -1391,13 +1400,13 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 82, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 84, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__items[data-active] {
   opacity: 1;
   z-index: 1;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 89, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__btn {
   position: absolute;
   z-index: 2;
@@ -1408,22 +1417,22 @@
   cursor: pointer;
 }
 
-/* line 96, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 98, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__btn.prev {
   left: 0;
 }
 
-/* line 99, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 101, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block-slide__btn.next {
   right: 6em;
 }
 
-/* line 105, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
-.tab-block-slides--active {
+/* line 107, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+.tab-block-slide:target {
   display: flex;
 }
 
-/* line 109, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 111, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs {
   margin-top: 50px;
   display: flex;
@@ -1432,14 +1441,14 @@
   width: 1110px;
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 118, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-items {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
-/* line 121, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 123, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-items__item {
   display: flex;
   align-items: center;
@@ -1456,7 +1465,7 @@
   transition: 0.7s;
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 139, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-items__item--active {
   border: 1px solid #5A8CC1;
   border-bottom: none;
@@ -1467,7 +1476,7 @@
   color: #000000;
 }
 
-/* line 149, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 151, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-body__block {
   display: none;
   margin-top: 80px;
@@ -1477,18 +1486,18 @@
   background: rgba(191, 219, 247, 0.2);
 }
 
-/* line 158, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 160, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-body__block--active {
   display: flex;
   transition: 0.7s;
 }
 
-/* line 168, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 170, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-body__text {
   margin: auto;
 }
 
-/* line 171, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 173, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-body__text > p {
   font-family: "Alice";
   margin-left: 30px;
@@ -1501,7 +1510,7 @@
   width: 539px;
 }
 
-/* line 183, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
+/* line 185, ../../../../../../../../../../../../../Users/family/Desktop/markup-hotel/src/scss/blocks/_tab.scss */
 .tab-block__tabs-body__text > a {
   display: block;
   margin-top: 10px;
