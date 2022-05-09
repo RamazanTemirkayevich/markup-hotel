@@ -64,3 +64,10 @@ a {
         padding-right: 166px;
     }
 }
+
+@media (min-width: 1920px) {
+    .container {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}

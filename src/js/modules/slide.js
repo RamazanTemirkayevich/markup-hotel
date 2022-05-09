@@ -1,4 +1,4 @@
-function slideTwo() {
+function slide() {
     const buttons = document.querySelectorAll("[data-carousel-button]")
 
     buttons.forEach(button => {
@@ -19,4 +19,4 @@ function slideTwo() {
     });
 }
 
-module.exports = slideTwo;
+module.exports = slide;
