@@ -42,15 +42,10 @@ a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 166px;
-    padding-right: 166px;
-}
-
 @media (min-width: 375px) {
     .container {
+        display: flex;
+        justify-content: space-between;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -60,5 +55,12 @@ a {
     .container {
         padding-left: 40px;
         padding-right: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        padding-left: 166px;
+        padding-right: 166px;
     }
 }

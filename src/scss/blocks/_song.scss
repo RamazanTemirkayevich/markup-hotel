@@ -261,3 +261,14 @@
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .song-block {
+        &__first {
+            width: 1110px;
+        }
+        &__second {
+            width: 1110px;
+        }
+    }
+}

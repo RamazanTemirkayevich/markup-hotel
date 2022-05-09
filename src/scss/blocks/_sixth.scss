@@ -180,3 +180,15 @@
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .sixth-block {
+
+        &__cards {
+            &-item {
+                width: 357px;
+                height: 654px;
+            }
+        }
+    }
+}

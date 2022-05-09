@@ -702,3 +702,19 @@
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .fourth-block {
+        &__tabs {
+            &-body {
+                &__block:target {
+                    width: 1220px;
+
+                    &>p {
+                        margin-left: 35px;
+                    }
+                }
+            }
+        }
+    }
+}

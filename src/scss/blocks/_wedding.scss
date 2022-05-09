@@ -50,3 +50,15 @@
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .wedding {
+        &-img {
+            width: 730px;
+        }
+
+        &-line {
+            width: 658px;
+        }
+    }
+}

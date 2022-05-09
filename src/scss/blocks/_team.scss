@@ -135,3 +135,29 @@
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .team {
+        margin: 140px auto auto auto;
+
+        &-block {
+            width: 1258px;
+
+            &__btn {
+                &.next {
+                    right: 6em;
+                }
+            }
+            
+            &__items {
+                &-text {
+                    height: 157px;
+
+                    &>p {
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+}

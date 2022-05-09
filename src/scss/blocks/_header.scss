@@ -19,7 +19,7 @@
 
                 &__item::after {
                     content: '';
-                    background: rgba(0, 0, 0, 0.34);
+                    background: rgba(0, 0, 0, 0.35);
                     display: block;
                     position: absolute;
                     width: 100%;
@@ -139,34 +139,40 @@
 
 @media (min-width: 1024px) {
     .header {
-        width: 100%;
-        height: 518px;
+        // width: 100%;
+        // height: 518px;
     
         &-main {
             position: relative;
-            width: 100%;
-            height: 100%;
+            // width: 100%;
+            // height: 100%;
     
             &__img {
                 position: relative;
-                width: 100%;
-                height: 100%;
+                // width: 100%;
+                // height: 100%;
                 overflow: hidden;
     
                 &-track {
                     display: flex;
                     transition: 1.5s;
     
-                    &__item::after {
-                        content: '';
-                        background: rgba(0, 0, 0, 0.34);
-                        display: block;
-                        position: absolute;
+                    &__item {
                         width: 100%;
                         height: 100%;
-                        top: 0;
-                        left: 0;
-                        z-index: 1;
+                        position: relative;
+
+                        &>img::after {
+                            content: '';
+                            background: rgba(0, 0, 0, 0.35);
+                            display: block;
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            z-index: 1;
+                        }
                     }
                 }
     
@@ -181,7 +187,7 @@
     
                 &-next {
                     position: absolute;
-                    margin-left: 92em;
+                    margin-left: 62em;
                     margin-top: 235px;
                     z-index: 2;
                     border: none;
@@ -238,6 +244,22 @@
                     color: #FFFFFF;
                     font-size: 28px;
                     letter-spacing: $lc;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        width: 100%;
+
+        &-main {
+            width: 100%;
+
+            &__img {
+                &-next {
+                    margin-left: 92em;
                 }
             }
         }
