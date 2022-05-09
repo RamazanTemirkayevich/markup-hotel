@@ -90,3 +90,22 @@
         }
     }
 }
+
+@media (min-width: 375px) {
+    .footer {
+        height: unset;
+
+        &-block {
+            flex-direction: column;
+
+            &__map {
+                margin-left: 10px;
+                width: 95%;
+            }
+
+            &__info {
+                margin-left: 12px;
+            }
+        }
+    }
+}

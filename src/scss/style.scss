@@ -49,9 +49,16 @@ a {
     padding-right: 166px;
 }
 
-@media only screen and (min-width: 375px) {
+@media (min-width: 375px) {
     .container {
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }

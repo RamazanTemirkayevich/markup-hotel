@@ -85,3 +85,53 @@
         }
     }
 }
+
+@media (min-width: 375px) {
+    .team {
+        margin: unset;
+        width: 100%;
+
+        &-title {
+            width: 100%;
+        }
+
+        &-block {
+            width: 100%;
+
+            &__btn {
+                &.next {
+                    right: 0;
+                }
+            }
+
+            &__items {
+                flex-direction: column;
+
+                &>img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .team {
+        &-block {
+            &__items {
+                flex-direction: row;
+
+                &>img {
+                    width: 530px;
+                }
+
+                &-text {
+                    height: unset;
+                    &>p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
