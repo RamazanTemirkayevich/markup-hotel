@@ -1,15 +1,16 @@
 function SecondTab() {
 
     let tabSecond = document.querySelectorAll('.fourth-block__tabs-items__item');
-
+    
     tabSecond.forEach(item => {
-        item.addEventListener('click', ShowTab);
+        item.addEventListener('click', selectTabNav);
     });
 
-    function ShowTab() {
+    function selectTabNav() {
         tabSecond.forEach(item => {
-            item.classList.toggle('active');
-        })
+            item.classList.remove('active');
+        });
+        this.classList.toggle('active');
     };
 }
 
